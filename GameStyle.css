@@ -51,10 +51,11 @@ h1 {
     transform: translate(-50%, 50%);
 }
 
-.Between {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+.between {
+    display: flex;
+    justify-content: flex-end;
+    font-size: small;
+    padding: 5px;
 }
 .again {
     position: absolute;
@@ -96,4 +97,7 @@ h1 {
 
 .label-score {
     margin-bottom: 2rem;
+}
+.message-section{
+    font-size: large;
 }
